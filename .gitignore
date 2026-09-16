@@ -30,3 +30,9 @@ app/webhook/sessions/*.json
 
 # Backups locais
 *.bak
+
+# Sessões geradas pelo sistema
+app/webhook/sessions/*.json
+
+# Arquivos de backup locais
+*.bak
