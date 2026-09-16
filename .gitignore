@@ -1,0 +1,32 @@
+# Nunca versionar credenciais locais
+.env
+.env.*
+!.env.example
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs e arquivos gerados
+**/error_log
+**/*.log
+app/webhook/menuia_debug.txt
+
+# ConteÃºdo gerado por usuÃ¡rios
+app/uploads/
+app/public/uploads/
+app/sistema/public/uploads/
+
+# Arquivo legado incompatível com Windows
+app/ajax/con.php
+
+# Arquivo legado incompatível com Windows
+app/ajax/con.php
+
+# Sessões geradas em execução
+app/webhook/sessions/*.json
+
+# Backups locais
+*.bak

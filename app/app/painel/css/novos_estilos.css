@@ -1,0 +1,218 @@
+.labels_form{
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.textos_list{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0;
+  display: inline-block;
+}
+
+.subtitulo_list{
+  font-size: 11px;
+  padding: 0;
+  margin-top: -15px !important;
+}
+
+.page_title_dados{
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 5px;
+  margin-top: -15px;
+  background: #445cfd;
+  color: #FFF;
+}
+
+.tabela_dados{
+  background: #f5f8ff !important;
+  font-size: 12px;
+}
+
+.celula_tabela{
+  background: #f5f8ff !important;
+}
+
+.botao_salvar{
+  color: #FFF !important;
+  font-size: 15px !important;
+  background-color: #0be0af !important;
+}
+
+.label_switch{
+  font-size: 11px !important;
+}
+
+.page_title_excluir{
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 5px;
+  margin-top: -15px;
+  background: #445cfd;
+  color: #FFF;
+}
+
+.botoes_excluir{
+  background: #e4e9f5 !important;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.botao_modelo{
+  width: 100%;
+  padding: 4% 0 4% 0;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #0be0af;
+  color: #222222;
+  border: none;
+}
+
+.botao_excluir{
+  color: #FFF !important;
+  font-size: 15px !important;
+  background-color: #d43d3d !important;
+  height: 40px;
+}
+
+.botao_confirmar{
+  color: #FFF !important;
+  font-size: 15px !important;
+  background-color: #067c28 !important;
+  height: 40px;
+}
+
+.botao_cancelar{
+  color: #FFF !important;
+  font-size: 15px !important;
+  background-color: #7a7a7a !important;
+  height: 40px !important;
+}
+
+.limpar_botao{
+  background: transparent;
+  border: none;
+}
+
+.desabilitar_botao{
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.botao_modelo_popup{
+  width: 100%;
+  padding: 4% 0 4% 0;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #1e4fc9;
+  color: #FFF;
+  border: none;
+}
+
+.ocultar{
+  display: none !important;
+}
+
+input::placeholder{
+  color: rgb(199, 199, 199) !important;
+}
+
+.color_verde{
+  color: #067c28;
+}
+
+.text-dark{
+  color: #222222;
+}
+
+.form-data{
+  height: 55px !important;
+  font-size: 10px !important;
+}
+
+
+/* =========================================================
+   AJUSTES DA AGENDA (SEM MUDAR LÓGICA)
+   ========================================================= */
+
+/* 1) Corrige radios/labels em colunas (agenda horários) */
+#listar-horarios .form-check{
+  padding-left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin: 0 !important;
+}
+
+#listar-horarios .form-check-input{
+  margin: 0 !important;
+  float: none !important;
+  position: static !important;
+  flex: 0 0 auto !important;
+}
+
+#listar-horarios .form-check-label{
+  margin: 0 !important;
+  white-space: nowrap !important;
+  line-height: 1.2 !important;
+  cursor: pointer !important;
+}
+
+#listar-horarios .row{
+  row-gap: 10px !important;
+}
+
+
+/* =========================================================
+   FORM-FLOATING (Cliente/Serviço) - espaço entre label e valor
+   (FUNCIONA com SELECT normal e com Select2 sel3)
+   ========================================================= */
+
+/* SELECT normal */
+#popupForm .form-floating > .form-select{
+  min-height: 64px !important;
+  padding-top: 2.75rem !important;
+  padding-bottom: .65rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Label mais alto e menor */
+#popupForm .form-floating > label{
+  top: .35rem !important;
+  font-size: .75rem !important;
+  opacity: .80 !important;
+}
+
+
+/* SELECT2 (sel3) */
+#popupForm .form-floating .select2-container{
+  width: 100% !important;
+}
+
+#popupForm .form-floating .select2-container .select2-selection--single{
+  height: 64px !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  padding: 0.65rem 2.25rem 0.65rem 2.75rem !important; /* respeita ícone */
+  border-radius: .375rem !important;
+}
+
+#popupForm .form-floating .select2-container .select2-selection__rendered{
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+
+#popupForm .form-floating .select2-container .select2-selection__arrow{
+  height: 64px !important;
+}

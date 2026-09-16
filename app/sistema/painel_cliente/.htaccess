@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^whatsapp(.*)$ index.php?pag=whatsapp [L]
+RewriteRule ^comanda(.*)$ index.php?pag=comanda [L]
+RewriteRule ^usuarios(.*)$ index.php?pag=usuarios [L]
+RewriteRule ^funcionarios(.*)$ index.php?pag=funcionarios [L]
+
+
+RewriteRule ^receber(.*)$ index.php?pag=receber [L]
+RewriteRule ^agendamentos(.*)$ index.php?pag=agendamentos [L]
+RewriteRule ^planos(.*)$ index.php?pag=planos [L]

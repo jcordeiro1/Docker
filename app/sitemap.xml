@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- PÁGINA INICIAL -->
+  <url>
+    <loc>https://barberbot.com.br/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- PÁGINAS PRINCIPAIS (ajuste se alguma rota for diferente) -->
+  <url>
+    <loc>https://barberbot.com.br/agendamentos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/servicos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/produtos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/assinatura</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/protese</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/corte-cabelo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://barberbot.com.br/barbearia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Se tiver blog/categorias/landing pages, adicione aqui como novos <url> -->
+</urlset>

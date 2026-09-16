@@ -1,0 +1,26 @@
+# Metadados de versionamento não pertencem ao contexto de build
+.git
+.gitignore
+
+# Configuração local e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados localmente
+**/.DS_Store
+**/error_log
+**/*.log
+webhook/menuia_debug.txt
+
+# Conteúdo enviado por usuários / arquivos grandes não necessários ao build
+uploads/
+public/uploads/
+sistema/public/uploads/
+
+# Materiais de teste/documentação que não precisam entrar na imagem
+../tests/
+../database/
+
+# Arquivo legado incompat�vel com Windows
+ajax/con.php
