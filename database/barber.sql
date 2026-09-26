@@ -338,7 +338,7 @@ CREATE TABLE `clientes` (
   `data_cad` date NOT NULL,
   `cartoes` int(11) NOT NULL,
   `data_retorno` date DEFAULT NULL,
-  `ultimo_servico` int(11) NOT NULL,
+  `ultimo_servico` int(11) NOT NULL DEFAULT 0,
   `alertado` varchar(5) DEFAULT NULL,
   `cpf` varchar(20) DEFAULT NULL,
   `senha_crip` varchar(255) DEFAULT NULL,

@@ -22,7 +22,7 @@ if(@count($res) > 0 and $id != $res[0]['id']){
 }
 
 if($id == ""){
-	$query = $pdo->prepare("INSERT INTO $tabela SET nome = :nome, telefone = :telefone, data_cad = curDate(), data_nasc = '$data_nasc', cartoes = '$cartoes', endereco = :endereco, alertado = 'Não', cpf = :cpf, senha_crip = '$senha_crip'");
+	$query = $pdo->prepare("INSERT INTO $tabela SET nome = :nome, telefone = :telefone, data_cad = curDate(), data_nasc = '$data_nasc', cartoes = '$cartoes', ultimo_servico = 0, endereco = :endereco, alertado = 'Não', cpf = :cpf, senha_crip = '$senha_crip'");
 } else {
 	$query = $pdo->prepare("UPDATE $tabela SET nome = :nome, telefone = :telefone, data_nasc = '$data_nasc', cartoes = '$cartoes', endereco = :endereco, cpf = :cpf WHERE id = '$id'");
 }
